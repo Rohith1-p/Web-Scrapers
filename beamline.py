@@ -14,18 +14,6 @@ print(response)
 
 resp = Selector(text=response.text)
 
-# print(resp.css('span[style="color:#000000;"] ::text').extract())
-
-# print(resp.css('a[class="wixui-rich-text__text"] ::attr(href)').extract())
-
-# print(resp.css('span[style="font-family:din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;"] ::text').extract())
-
-# print(resp.css('p.font_8.wixui-rich-text__text[style="font-size:15px; line-height:1.8em; text-align:center;"] ::text').extract())
-# print(resp.css('div[data-testid="inline-content"] div[data-testid="mesh-container-content"] div[tabindex="0"] ::attr(href)').extract())
-# print(resp.css('div[data-testid="inline-content"] div[data-testid="mesh-container-content"] div[tabindex="0"] a[rel="noreferrer noopener"] ::attr(href)').extract())
-# print(resp.css('div[data-testid="inline-content"] div[data-testid="mesh-container-content"] div[tabindex="0"] wow-image[class="HlRz5e"] ::attr(href)').extract())
-
-# print(len(resp.css('div[data-testid="inline-content"] div[data-testid="mesh-container-content"] div[tabindex="0"]')))\
 
 data_dict = {'Company Name':[],'Website':[],'Description1':[],'Description2:':[],'Logo Url':[]}
 for i in resp.css('div[data-testid="inline-content"] div[data-testid="mesh-container-content"] div[tabindex="0"]'):
