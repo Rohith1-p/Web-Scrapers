@@ -12,4 +12,4 @@ You are welcome to use the these scrapers or add to my collection.
 #Lead Generation
 1. GrowBots.
 2. Crunchbase
-3. Telgram
+3. Telegram
