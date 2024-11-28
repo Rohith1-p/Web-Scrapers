@@ -7,7 +7,6 @@ async def check_admin(group_name):
     api_id = #Enter your api_id
     api_hash = 'Enter your hash key'
 
-    # username = '+919652381391'=]
 
  
     async with TelegramClient('session_name', api_id, api_hash) as client:
